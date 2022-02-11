@@ -26,14 +26,14 @@
         "selectedIconPath": ""
       },
       {
-        "pagePath": "pages/user/user",
-        "text": "个人",
+        "pagePath": "pages/city/city",
+        "text": "城市",
         "iconPath": "",
         "selectedIconPath": ""
       },
       {
-        "pagePath": "pages/city/city",
-        "text": "城市",
+        "pagePath": "pages/user/user",
+        "text": "个人",
         "iconPath": "",
         "selectedIconPath": ""
       }
