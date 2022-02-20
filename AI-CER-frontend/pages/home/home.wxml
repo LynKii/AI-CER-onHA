@@ -1,2 +1,27 @@
 <!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<!-- 首页 -->
+
+<!-- 顶部动态宣传栏 -->
+<view>
+  <swiper indicator-dots="true" autoplay="true" circular="true">
+    <!-- 待绑定内容 -->
+    <swiper-item wx:for="{{}}" data-index="{{}}" data-src="{{}}" bindtap="">
+      <view>
+        <image src="{{}}"></image>
+      </view>
+    </swiper-item>
+  </swiper>
+</view>
+
+<!-- 耗电量看板 -->
+<view>
+  <!-- 选择：当天、本周、本月、今年 -->
+  <view>
+    <view hover-class="" bindtap=""></view>
+  </view>
+
+  <!-- 数据折线图呈现 -->
+  <scroll-view scroll-x="true">
+    
+  </scroll-view>
+</view>
