@@ -1,6 +1,7 @@
 <!--pages/user/user.wxml-->
 <!-- 个人页面 -->
 
+<!-- 头像昵称栏 -->
 <view class="userinfo">
   <block wx:if="{{canIUseOpenData}}">
     <view class="userinfo-avatar" bindtap="bindViewTap">
@@ -17,4 +18,10 @@
     <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
   </block>
+</view>
+
+<!-- 用户ID输入 -->
+<view>
+  <input type="number"/>
+  <view bindtap="uploadID"> 确认 </view>
 </view>
