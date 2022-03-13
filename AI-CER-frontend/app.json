@@ -3,6 +3,7 @@
     "pages/home/home",
     "pages/user/user",
     "pages/city/city",
+    "pages/news/news",
     "pages/index/index",
     "pages/logs/logs"
   ],
@@ -30,6 +31,12 @@
         "text": "城市",
         "iconPath": "/image/duixiangcunchu.png",
         "selectedIconPath": "/image/duixiangcunchu-2.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "资讯",
+        "iconPath": "/image/zonglan.png",
+        "selectedIconPath": "/image/zonglan-2.png"
       },
       {
         "pagePath": "pages/user/user",
