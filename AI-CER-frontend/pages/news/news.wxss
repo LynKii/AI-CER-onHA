@@ -1,1 +1,51 @@
 /* pages/news/news.wxss */
+/* pages/clock/clockin.wxss */
+.type-pad{
+  height: 40px;
+  border-bottom: 1px solid #f0f0f0;
+  line-height: 40px;
+}
+
+.type-pad text{
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+.type-pad text.select{
+color: red;
+}
+
+.body{
+  margin-top: 10px;
+}
+
+.body .user-info{
+  height: 30px;
+  padding-left: 10px;
+}
+
+.body .user-info image{
+  width:30px;
+  height: 30px;
+  border-radius: 36px;
+  vertical-align: middle;
+}
+
+.body .user-info text{
+  font-size:14px ;
+  margin-left: 10px;
+}
+
+.body .user-info .focus{
+  padding-left: 10px;
+  border-left: 1px solid #ccc;
+}
+
+.body .user-info text.no-focus{
+  color: red;
+}
+
+.body .title{
+  font-size: 14px;
+  padding:10px;
+}

@@ -1,2 +1,32 @@
 <!--pages/news/news.wxml-->
-<text>pages/news/news.wxml</text>
+<view class="type-pad">
+  <block>
+  <text class="select">关注</text>
+  </block>
+  <block>
+  <text>关注</text>s
+  </block>
+  <block>
+  <text>关注</text>
+  </block>
+  <block>
+  <text>关注</text>
+  </block>
+  <block>
+  <text>关注</text>
+  </block>
+</view>
+
+
+<view class="body">
+  <view class="item">
+   <view class="user-info">
+      <image src=""></image>
+      <text class="user-name">TTYH</text>
+      <text class="focus on-focus">关注</text>
+    </view>
+    <view class="title">
+      <text>content</text>
+    </view>
+  </view>
+</view>
