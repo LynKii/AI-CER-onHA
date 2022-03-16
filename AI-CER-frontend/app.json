@@ -25,7 +25,7 @@
     "borderStyle": "white",
     "list": [
       {
-        "pagePath": "pages/home/homein",
+        "pagePath": "pages/home/home",
         "text": "概览",
         "iconPath": "/image/zonglan.png",
         "selectedIconPath": "/image/zonglan-2.png"
