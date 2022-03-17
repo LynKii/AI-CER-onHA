@@ -23,5 +23,5 @@
 <!-- 用户ID输入 -->
 <view>
   <input type="number"/>
-  <view bindtap="uploadID"> 确认 </view>
+  <view bindtap="uploadID">  </view>
 </view>

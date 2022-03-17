@@ -26,7 +26,37 @@
       <text class="focus on-focus">关注</text>
     </view>
     <view class="title">
-      <text>content</text>
+      <text>c广州工商学院的前身是1995年由广州市花都环洋商贸有限公司投资创办的广州市花都环洋商贸学校。2000年，学校更名为广州环洋专修学院（广东省科技干部学院花都办学点）。2001年7月，学校与广东商学院合作举办广东商学院花都学院。2004年，经广东省人民政府批准成立、教育部备案，学院更名为广州工商职业技术学院。2014年5月，经教育部批准，更名为广州工商学院。</text>
+    </view>
+  </view>
+  <view class="item">
+   <view class="user-info">
+      <image src="/image/duixiangcunchu.png"></image>
+      <text class="user-name">TTYH</text>
+      <text class="focus on-focus">关注</text>
+    </view>
+    <view class="title">
+      <image src="/image/duixiangcunchu.png"></image>
+    </view>
+  </view>
+  <view class="item">
+   <view class="user-info">
+      <image src="/image/duixiangcunchu.png"></image>
+      <text class="user-name">TTYH</text>
+      <text class="focus on-focus">关注</text>
+    </view>
+    <view class="title">
+      <image src="/image/duixiangcunchu.png"></image>
+    </view>
+  </view>
+  <view class="item">
+   <view class="user-info">
+      <image src="/image/duixiangcunchu.png"></image>
+      <text class="user-name">TTYH</text>
+      <text class="focus on-focus">关注</text>
+    </view>
+    <view class="title">
+      <image src="/image/duixiangcunchu.png"></image>
     </view>
   </view>
 </view>
