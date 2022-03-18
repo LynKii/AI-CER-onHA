@@ -5,7 +5,9 @@
     "pages/city/city",
     "pages/news/news",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/message/message",
+    "pages/display/display"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -51,6 +53,5 @@
     ]
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json",
   "lazyCodeLoading": "requiredComponents"
 }

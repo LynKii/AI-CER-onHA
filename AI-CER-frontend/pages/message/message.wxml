@@ -1,0 +1,33 @@
+<!--pages/message/message.wxml-->
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell weui-cell_input">
+    <view class="weui-cell_hd">
+      <view class="weui-label">姓名</view>
+    </view>
+    <view class="weui-cell_hd">
+      <input class="weui-input" placeholder="请输入姓名" bindchange="changeName"/>
+    </view>
+  </view>
+  <view class="weui-cell weui-cell_input">
+    <view class="weui-cell_hd">
+      <view class="weui-label">手机号</view>
+    </view>
+    <view class="weui-cell_hd">
+      <input class="weui-input" placeholder="请输入手机号" bindchange="changeTel"/>
+    </view>
+  </view>
+  <view class="weui-cell weui-cell_input">
+    <view class="weui-cell_hd">
+      <view class="weui-label">性别</view>
+    </view>
+    <view class="weui-cell_hd">
+      <input class="weui-input" placeholder="请输入性别" bindchange="changeSex"/>
+    </view>
+  </view>
+</view>
+
+<navigator  url='../user/user' class="weui-cell_access" hover-class="weui-cell_active">
+<view class="page_bd page_bd_spacing submit" >
+  <button class="weui-btn" type="primary" bindtap="bindSubmit"  >提交</button>
+</view>
+</navigator>

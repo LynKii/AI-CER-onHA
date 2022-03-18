@@ -1,5 +1,10 @@
 /* pages/news/news.wxss */
 /* pages/clock/clockin.wxss */
+
+.item{
+  width: 200px;
+}
+
 .type-pad{
   height: 40px;
   border-bottom: 1px solid #f0f0f0;
@@ -48,4 +53,13 @@ color: red;
 .body .title{
   font-size: 14px;
   padding:10px;
+}
+
+.body .content{
+  padding: 0 10px;
+}
+
+.body .content video{
+  width: 50%;
+  height: 150px;
 }

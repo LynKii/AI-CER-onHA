@@ -20,8 +20,21 @@
   </block>
 </view>
 
+<view class="weui-cells_title weui-cells_after-title">
+  <navigator  url='../message/message' class="weui-cell_access" hover-class="weui-cell_active">
+  <image src="/image/message.png" style="margin-right: 5px;vertical-align: middle;width: 20px;height: 20px;"></image>
+    <view class="weui-cell_bd">完善信息</view>
+    <view class="weui-cell_ft weui-cell_ft_in-access"></view>
+  </navigator>
+  <navigator  url='../display/display' class="weui-cell_access" hover-class="weui-cell_active">
+  <image src="/image/display.png" style="margin-right: 5px;vertical-align: middle;width: 20px;height: 20px;"></image>
+    <view class="weui-cell_bd">了解碳中和</view>
+    <view class="weui-cell_ft weui-cell_ft_in-access"></view>
+  </navigator>
+</view>
+
 <!-- 用户ID输入 -->
 <view>
   <input type="number"/>
-  <view bindtap="uploadID">  </view>
+  <view bindtap="uploadID"></view>
 </view>
